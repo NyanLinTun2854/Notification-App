@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661643253766",
+    "project_id": "notitesting-d9f17",
+    "storage_bucket": "notitesting-d9f17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661643253766:android:e44e113d471c8476040b87",
+        "android_client_info": {
+          "package_name": "com.noti_testing_manager_version"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjxsYisxXEcVHZiIlnm4_PYxeVkG4n7FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
