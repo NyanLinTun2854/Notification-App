@@ -5,6 +5,8 @@ import messaging from '@react-native-firebase/messaging';
 import {fcmService} from './src/components/firebase/FCMServices';
 import {localNotificationService} from './LocalNotificationService';
 import Home from './src/screen/Home';
+import {FormProvider} from './src/context/FormContext';
+import About from './src/screen/About';
 
 const App = () => {
   useEffect(() => {
@@ -30,7 +32,11 @@ const App = () => {
       // replenishListener.remove();
     };
   }, []);
-  return <Home />;
+  return (
+    <FormProvider>
+      <About />
+    </FormProvider>
+  );
 };
 
 export default App;
